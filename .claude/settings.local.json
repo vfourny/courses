@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "WebFetch(domain:nuxt.com)",
+      "WebFetch(domain:ui.nuxt.com)",
+      "Bash(npm install)",
+      "WebFetch(domain:content.nuxt.com)",
+      "WebSearch",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(npm --version)",
+      "Bash(npm uninstall:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm rebuild:*)",
+      "Bash(git remote get-url:*)",
+      "WebFetch(domain:landing-template.nuxt.dev)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash({} +)",
+      "Bash(npm install:*)",
+      "Bash(npm run typecheck:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(rm:*)",
+      "Bash(git mv:*)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(test:*)",
+      "Bash(cat:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(wc:*)",
+      "Bash(GIT_SEQUENCE_EDITOR=\"sed -i.bak ''2,$s/^pick/squash/''\" git rebase -i 8a285e0)",
+      "WebFetch(domain:www.linkedin.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
