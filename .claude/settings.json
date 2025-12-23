@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Edit",
+      "Bash(ls:*)",
+      "Bash(git:*)",
+      "Bash(cat:*)",
+      "Bash(cd:*)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(echo:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Read",
+      "Write",
+      "mcp__context7",
+      "WebFetch(domain:nuxt.com)",
+      "WebFetch(domain:ui.nuxt.com)",
+      "WebFetch(domain:content.nuxt.com)"
+    ],
+    "defaultMode": "acceptEdits",
+    "deny": [],
+    "ask": []
+  },
+  "enabledMcpjsonServers": ["context7"],
+  "enableAllProjectMcpServers": true
+}
