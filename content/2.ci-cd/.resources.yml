@@ -1,0 +1,22 @@
+summary:
+  id: 'cicd'
+  title: 'CI/CD'
+  subtitle: 'Intégration & Déploiement Continu'
+  description: 'Automatisez vos workflows de développement avec GitHub Actions. Mettez en place des pipelines robustes, déployez en continu, testez automatiquement, et améliorez votre productivité.'
+  icon: 'i-simple-icons-githubactions'
+  to: '/ci-cd'
+  gradient: 'from-blue-500 to-indigo-700'
+  image: '/images/landing/cicd-pipeline.png'
+  keyPoints:
+    - 'Configurer ESLint et Prettier pour garantir la qualité du code'
+    - 'Adopter Conventional Commits et structurer votre dépôt GitHub'
+    - 'Automatiser vos tests avec GitHub Actions (CI)'
+    - 'Déployer automatiquement sur Railway (CD)'
+    - 'Booster votre productivité avec Claude Code et les MCP'
+
+usefulLinks:
+  - label: 'Config du prof '
+    icon: 'i-heroicons-arrow-down-tray'
+    to: 'https://github.com/vfourny/node-toolkit/tree/main'
+    target: '_blank'
+
