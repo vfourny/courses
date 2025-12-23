@@ -5,7 +5,7 @@
       <div
         class="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-primary-100 dark:from-primary-950 dark:via-gray-950 dark:to-primary-900"
       />
-      <HeroBackground />
+      <ModuleIconsBg />
       <StarsBg
         :star-count="150"
         color="rgba(var(--color-primary-500), 0.3)"

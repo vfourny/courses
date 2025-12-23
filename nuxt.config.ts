@@ -1,10 +1,8 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
-      ]
-    }
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    },
   },
   modules: [
     '@nuxt/eslint',
@@ -57,8 +55,8 @@ export default defineNuxtConfig({
   },
   typescript: {
     typeCheck: true,
-    // tsConfig: {
-    //   extends: '@vfourny/node-toolkit/tsconfig',
-    // },
+    tsConfig: {
+      extends: '@vfourny/node-toolkit/tsconfig',
+    },
   },
 })
