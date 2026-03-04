@@ -47,7 +47,7 @@ exercises:
   - label: 'Corrigé du cours'
     icon: 'i-heroicons-academic-cap'
     target: '_blank'
-    to: 'https://github.com/vfourny/vuejs-tutorial'
+    to: 'https://github.com/vfourny/vuejs-courses'
   - label: 'Pokemon TCG'
     icon: 'i-heroicons-ellipsis-horizontal-circle'
     target: '_blank'

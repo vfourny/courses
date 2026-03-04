@@ -34,7 +34,10 @@
       "Bash(wc:*)",
       "Bash(GIT_SEQUENCE_EDITOR=\"sed -i.bak ''2,$s/^pick/squash/''\" git rebase -i 8a285e0)",
       "WebFetch(domain:www.linkedin.com)",
-      "Bash(cd /Users/vfourny/workspace/iut/courses/content/3.vue && mv 09.socket.md 10.socket.md && mv 08.routing.md 09.routing.md && mv 07.api.md 08.api.md && mv 06.store.md 07.store.md && mv 05.design-system.md 06.design-system.md && mv 04.composables.md 05.composables.md && mv 03.component.md 04.component.md && mv 02.bases.md 03.bases.md)"
+      "Bash(cd /Users/vfourny/workspace/iut/courses/content/3.vue && mv 09.socket.md 10.socket.md && mv 08.routing.md 09.routing.md && mv 07.api.md 08.api.md && mv 06.store.md 07.store.md && mv 05.design-system.md 06.design-system.md && mv 04.composables.md 05.composables.md && mv 03.component.md 04.component.md && mv 02.bases.md 03.bases.md)",
+      "Bash(gh repo view vfourny/nodejs-courses --json readme -q .readme.text 2>/dev/null | head -100 || curl -s https://raw.githubusercontent.com/vfourny/nodejs-courses/main/README.md | head -100)",
+      "Bash(gh api repos/vfourny/nodejs-courses/readme --jq '.content' | base64 -d 2>/dev/null)",
+      "Bash(cd /Users/vfourny/workspace/iut/vuejs-courses && sed -i '' 's/\"vue\": \"\\\\^3.5.0\"/\"vue\": \"^3.5.0\",\\\\n    \"naive-ui\": \"^2.40.0\"/' package.json && cat package.json)"
     ],
     "deny": [],
     "ask": []
