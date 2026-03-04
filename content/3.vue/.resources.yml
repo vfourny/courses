@@ -39,11 +39,6 @@ usefulLinks:
     icon: 'i-heroicons-map'
     to: 'https://next.router.vuejs.org/'
     target: '_blank'
-  - label: 'Doc Cypress'
-    icon: 'i-heroicons-beaker'
-    to: 'https://docs.cypress.io/app/get-started/why-cypress'
-    target: '_blank'
-
 exercises:
   - label: 'Corrigé du cours'
     icon: 'i-heroicons-academic-cap'
@@ -52,4 +47,4 @@ exercises:
   - label: 'Pokemon TCG'
     icon: 'i-heroicons-ellipsis-horizontal-circle'
     target: '_blank'
-    to: 'https://classroom.github.com/a/1KxZ1YjF'
+    to: 'https://github.com/vfourny/template-tcg-spa'
